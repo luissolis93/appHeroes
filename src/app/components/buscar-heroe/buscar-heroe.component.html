@@ -2,7 +2,7 @@
 
 
 <div class="card-columns" *ngIf="!loading">
-  <div class="card" *ngFor="let Heroe of heroesRecibidos">
+  <div class="card" *ngFor="let Heroe of heroesFiltrados">
     <img [src]="Heroe.img" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">{{Heroe.nombre}}</h5>
