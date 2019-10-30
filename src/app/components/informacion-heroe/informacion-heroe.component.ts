@@ -21,7 +21,7 @@ export class InformacionHeroeComponent implements OnInit {
    }
 
   ngOnInit() {
-    console.log('hola soy ngonit');
+    // console.log('hola soy ngonit');
     
   }
 

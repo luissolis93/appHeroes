@@ -1,2 +1,14 @@
-<p>informacion-heroe works yESSSSSSSSSSSSS AHAHAHA!</p>
+<app-loading *ngIf="loading"></app-loading>
+
+
+<div class="card-columns" *ngIf="!loading">
+  <div class="card">
+    <img [src]="heroeFiltrado.img" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">{{heroeFiltrado.nombre}}</h5>
+      <p class="card-text">{{heroeFiltrado.bio}} </p>
+      <p class="card-text"><small class="text-muted">Fecha de 1er aparicion: {{heroeFiltrado.aparicion}}</small></p>
+    </div>
+  </div>
+</div>
 
